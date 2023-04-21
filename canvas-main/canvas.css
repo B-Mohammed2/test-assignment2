@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+
+}
+
+  
+body{
+    overflow-y: hidden; /* Hide vertical scrollbars }*/
+    overflow-x: hidden; /* Hide horizontal scrollbars }*/
+
+}
+   
+#canvas {
+border:10px solid rgba(223, 186, 35, 0.186);
+
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+button, input{
+    background-color: white;
+    padding: 5px;
+    align-items: center;
+    border:none;
+    text-decoration: none;
+
+}
+
+#line_width {
+font-size: 16px;
+width: 50px;
+border:2px solid;
+border-radius: 5px;
+border-color: rgba(38, 131, 53, 0.505);
+border-width: 1px;
+
+}
+/* for (let i =0; i <drawings.length; i++) {
+    let drawing=drawings
+} */
+.circle {
+    background-color: rgba(235, 219, 219, 0.393);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 2px solid;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border: 12px solid rgba(0, 128, 0, 0);
+    border-top: 0;
+    border-bottom: 24px solid rgba(60, 103, 46, 0.534);
+
+}
+.square {
+    border:1px solid black;
+    width:20px;
+    height: 15px;  
+    justify-content: center;
+    align-items: center;  
+}
+
+
